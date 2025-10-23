@@ -39,7 +39,7 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .hero-gradient {
-            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%), 
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%),
                         radial-gradient(circle at 20% 80%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
                         radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
         }
@@ -129,7 +129,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="mobile-menu md:hidden bg-white border-t">
             <div class="px-4 py-4 space-y-2">
@@ -151,7 +151,7 @@
                     Build Your Dream Team — <span class="text-primary">Fractionally.</span>
                 </h1>
                 <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                    Access top-tier marketing, tech, and operations experts without hiring full-time. 
+                    Access top-tier marketing, tech, and operations experts without hiring full-time.
                     Scale your startup with fractional leadership that delivers <strong>40% faster results</strong>.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -228,7 +228,7 @@
                     Real results from real companies that scaled with fractional leadership
                 </p>
             </div>
-            
+
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
                 <div class="testimonial-card p-6 rounded-xl shadow-lg">
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Testimonial 2 -->
                 <div class="testimonial-card p-6 rounded-xl shadow-lg">
                     <div class="flex items-center mb-4">
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Testimonial 3 -->
                 <div class="testimonial-card p-6 rounded-xl shadow-lg">
                     <div class="flex items-center mb-4">
@@ -509,7 +509,7 @@
         // Mobile menu toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         if (mobileMenuButton && mobileMenu) {
             mobileMenuButton.addEventListener('click', function() {
                 mobileMenu.classList.toggle('active');
@@ -518,14 +518,14 @@
 
         // Exit intent popup
         let exitIntentShown = false;
-        
+
         function showExitIntentPopup() {
             if (!exitIntentShown) {
                 document.getElementById('exit-intent-popup').style.display = 'block';
                 exitIntentShown = true;
             }
         }
-        
+
         function closePopup() {
             document.getElementById('exit-intent-popup').style.display = 'none';
         }
@@ -546,7 +546,7 @@
 
         // Google Analytics tracking (replace with your GA4 measurement ID)
         // gtag('config', 'GA_MEASUREMENT_ID');
-        
+
         // Track CTA clicks
         document.querySelectorAll('a[href*="cal.com"]').forEach(link => {
             link.addEventListener('click', function() {
