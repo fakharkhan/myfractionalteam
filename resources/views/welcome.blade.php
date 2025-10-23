@@ -89,6 +89,21 @@
             max-width: 500px;
             width: 90%;
         }
+        .cta-button {
+            background-color: #2563eb !important;
+            color: white !important;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        .cta-button:hover {
+            background-color: #1d4ed8 !important;
+            color: white !important;
+            transform: scale(1.05);
+        }
         .mobile-menu {
             display: none;
         }
@@ -116,7 +131,7 @@
 
                 <!-- CTA Button -->
                 <div class="flex items-center space-x-4">
-                    <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-medium shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200">
+                    <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="cta-button" style="padding: 0.5rem 1.5rem; font-size: 0.875rem;">
                         Get Started
                     </a>
 
@@ -155,7 +170,7 @@
                     Scale your startup with fractional leadership that delivers <strong>40% faster results</strong>.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                    <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="cta-button">
                         📅 Book Free Consultation
                     </a>
                     <a href="#services" class="border-2 border-primary text-primary px-8 py-4 rounded-lg hover:bg-primary hover:text-white transition-colors duration-200 font-semibold text-lg">
@@ -429,7 +444,7 @@
                     </div>
 
                     <div class="text-center">
-                        <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="bg-primary text-white px-8 py-4 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-semibold text-lg inline-block shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                        <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="cta-button">
                             📅 Book Free 30-Min Consultation
                         </a>
                         <p class="text-sm text-gray-500 mt-4">
@@ -477,7 +492,7 @@
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-2">Wait! Don't Miss Out</h3>
                 <p class="text-gray-600 mb-6">Get your free fractional leadership strategy session before you go!</p>
-                <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors duration-200 font-semibold inline-block mb-4">
+                <a href="https://cal.com/myfractionalteam/30min" target="_blank" class="cta-button" style="padding: 0.75rem 1.5rem; font-size: 1rem; margin-bottom: 1rem;">
                     📅 Book Free 30-Min Call
                 </a>
                 <p class="text-sm text-gray-500">Limited spots available this month</p>
